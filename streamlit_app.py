@@ -1,9 +1,14 @@
 import streamlit as streamlit
 import pandas as pd
 import numpy as np
+import json
 
-# Load the data from json file
-df = pd.read_json('data.json')
+with open('data.json', 'r') as f:
+    data = json.load(f)
 
-st.df(df)
+df = pd.DataFrame(data['data'])
 
+st.title("Analisi del database JSON")
+
+# Mostra la tabella dei dati
+st.write(df)

@@ -11,4 +11,4 @@ df = pd.DataFrame(data['data'])
 st.title("Analisi del database JSON")
 
 # Mostra la tabella dei dati
-st.write(df)
+st.dataframe(df)

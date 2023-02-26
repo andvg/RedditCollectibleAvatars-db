@@ -8,8 +8,8 @@ with open('data.json', 'r') as f:
 
 df = pd.DataFrame(data['data'])
 
-# spacchetta le colonne che contengono json
-df = pd.concat([df.drop(['data'], axis=1), df['data'].apply(pd.Series)], axis=1)
+# spacchetta le colonne che contengono liste
+df = pd.concat([df.drop(['tags'], axis=1), df['tags'].apply(pd.Series)], axis=1)
 
 st.title("Analisi del database JSON")
 st.multiselect("Seleziona le colonne da visualizzare", df.columns)

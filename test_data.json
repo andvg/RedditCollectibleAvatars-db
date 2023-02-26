@@ -1,0 +1,79 @@
+{
+  "data": [
+    {
+      "id": "491aff04-af56-4f69-a077-98bf377e2f0d",
+      "name": "Buff Bear",
+      "slug": "buff-bear",
+      "image": "https://i.seadn.io/gae/pRLfPL6CQF2T4rN7fJYLvaHu5quTS1UmOuwb53UYDy7HfzsEnr-uprj-P5TIe4PeeyfyiGB2PfSLB5EiYcE1Zsl9SkIUSk_ZF7fG?w=500&auto=format",
+      "type": 4,
+      "description": null,
+      "floorPrice": 4.2,
+      "supply": 438,
+      "floorAsset": {
+        "id": "ec2d2897-a415-449d-b0e6-2d0a2efda6e1",
+        "currentPrice": 4.2,
+        "tokenId": "5"
+      },
+      "collection": {
+        "id": "82721bfc-3513-467a-9618-2c932039d5d5",
+        "name": "Memetic Traders x Reddit Collectible Avatars",
+        "slug": "memetic-traders-x-reddit-collectible-avatars",
+        "chainId": 137,
+        "address": "0xa3396af20ce52bd3c7ab6d7046be617257f60eb9"
+      },
+      "stats": {
+        "supply": 438,
+        "floorPrice": 4.2,
+        "volume24h": 0,
+        "volume24hChange": null,
+        "volume7d": 0,
+        "volume7dChange": null,
+        "volume30d": 0.26,
+        "volume30dChange": 0,
+        "ownerCount": 437,
+        "uniqueOwnerPer": 99.77168949771689,
+        "numberOfListed": 2,
+        "numberOfListedPer": 0.45662100456621,
+        "marketCap": 3023530.826188814
+      }
+    },
+    {
+      "id": "211aff83-47b6-4107-8905-2a76942425ad",
+      "name": "The Hands",
+      "slug": "the-hands",
+      "image": "https://lh3.googleusercontent.com/QTJx6WPoz5neQLac-06pCOdz8ynuojuTVRu1QxlPrrPuxkP8otgSzrzEoizCVR1eHXGJodrKSPOmcCLtnnrcpB5-QnZmlAurNNljIg=s250",
+      "type": 1,
+      "description": null,
+      "floorPrice": 9.5,
+      "supply": 101,
+      "floorAsset": {
+        "id": "37c1c955-1185-46b2-b49e-b37523bd1d44",
+        "currentPrice": 9.5,
+        "tokenId": "77"
+      },
+      "collection": {
+        "id": "e36e76ed-5822-4e45-a7b7-0d1f78f17b2d",
+        "name": "The Senses x Reddit Collectible Avatars",
+        "slug": "the-senses-x-reddit-collectible-avatars",
+        "chainId": 137,
+        "address": "0x8d0501d85becda92b89e56177ddfcea5fc1f0af2"
+      },
+      "stats": {
+        "supply": 101,
+        "floorPrice": 9.5,
+        "volume24h": 0,
+        "volume24hChange": null,
+        "volume7d": 3.6,
+        "volume7dChange": -0.09999999999999998,
+        "volume30d": 14.55,
+        "volume30dChange": 3.1571428571428575,
+        "ownerCount": 97,
+        "uniqueOwnerPer": 96.03960396039604,
+        "numberOfListed": 7,
+        "numberOfListedPer": 6.9306930693069315,
+        "marketCap": 1577015.5619309451
+      }
+    }
+  ],
+  "key": "edd326da-3650-48ed-853e-0a81a0a1ed3a"
+}

@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import json
 
 with open('data.json') as f:
     data = json.load(f)

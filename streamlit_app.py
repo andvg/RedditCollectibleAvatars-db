@@ -9,7 +9,7 @@ df = pd.json_normalize(data['data'])
 
 st.dataframe(df)
 
-filters = st.sidebar.multiselect('Seleziona le colonne', df.columns)
+filters = st.sidebar.multiselect('Seleziona la collezione', df.columns['collection.name'])
 filtered_df = df[filters]
 st.dataframe(filtered_df)
 

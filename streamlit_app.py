@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 
-with open('database.json') as f:
+with open('data.json') as f:
     data = json.load(f)
 
 df = pd.json_normalize(data['data'])

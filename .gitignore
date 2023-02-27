@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# RedditCollectibleAvatars-db
+test_data.json
+test_app.py
